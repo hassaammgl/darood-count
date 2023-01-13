@@ -1,0 +1,33 @@
+body{
+    background: url('./big.jpg');
+    background-size: cover;
+}
+
+*{
+
+    font-family: 'Baloo Bhai 2', cursive;
+}
+
+.bg-none{
+    background: none;
+}
+
+.font-family{
+    font-family: 'Baloo Bhai 2', cursive;
+}
+
+footer{
+    height: 30px;
+    background-color: rgba(0, 0, 0, 0.733);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+@media screen and (max-width: 800px) {
+    body{
+        background: url('./small.jpg');
+        background-size: cover;
+    }
+}
